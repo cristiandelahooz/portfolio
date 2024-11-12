@@ -1,9 +1,11 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
 
-::github{repo="saicaca/fuwari"}
+# ![Static Badge](https://img.shields.io/badge/V-F7DF1E?style=for-the-badge&logo=superuser&logoColor=rgba&label=Saratras) Hey there, my name is Cristian de la Hoz 👋
+### Computer Science Engineer
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+![GitHub Followers](https://img.shields.io/github/followers/cristiandelahooz?style=social)
+
+I am a third-year computer science student at the Pontificia Universidad Católica Madre y Maestra (PUCMM), committed to deepening my expertise in backend development. Currently, I am focused on mastering the Spring framework in Java. This page is designed to share my progress and contributions with the community as I continue my journey toward becoming a full-stack developer.
+
+
+::github{repo="cristiandelahooz/cristiandelahooz"}
