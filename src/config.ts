@@ -8,7 +8,7 @@ import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
   title: 'Portfolio',
-  subtitle: 'Demo Site',
+  subtitle: 'Ignatiuss',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
     hue: 235,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -28,12 +28,12 @@ export const siteConfig: SiteConfig = {
     enable: true,           // Display the table of contents on the right side of the post
     depth: 2                // Maximum heading depth to show in the table, from 1 to 3
   },
-  favicon: [    // Leave this array empty to use the default favicon
-    // {
-    //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-    //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-    //   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-    // }
+  favicon: [  
+     {
+       src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+      //  theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+      //  sizes: '149x177',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+     }
   ]
 }
 
