@@ -1,7 +1,7 @@
 ---
 title: My favorites videos.
 published: 2023-08-01
-description: Take a lock in my favorites videos.
+description: Take a look in my favorites videos.
 tags: [Video]
 category: video
 draft: false
