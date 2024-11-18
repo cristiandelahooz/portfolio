@@ -3,7 +3,7 @@ title: My favorites videos.
 published: 2023-08-01
 description: Take a look in my favorites videos.
 tags: [Video]
-category: video
+category: Video
 draft: false
 ---
 
