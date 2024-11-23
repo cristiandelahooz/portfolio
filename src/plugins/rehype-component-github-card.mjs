@@ -1,6 +1,6 @@
 /// <reference types="mdast" />
 import { h } from 'hastscript'
-
+import { randomBytes } from 'crypto'
 /**
  * Creates a GitHub Card component.
  *
@@ -23,7 +23,7 @@ export function GithubCardComponent(properties, children) {
     )
 
   const repo = properties.repo
-  const cardUuid = `GC${Math.random().toString(36).slice(-6)}` // Collisions are not important
+  const cardUuid = `GC${randomBytes(3).toString('hex').slice(-6)}` // Collisions are not important
 
   const nAvatar = h(`div#${cardUuid}-avatar`, { class: 'gc-avatar' })
   const nLanguage = h(
