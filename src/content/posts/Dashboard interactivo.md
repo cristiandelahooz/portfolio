@@ -2,7 +2,7 @@
 title: Dashboard interactivo
 published: 2024-11-26
 description: 'An interative dashboard about youtube videos metrics in a particular channel'
-image: './covers/Dashboard-BI.png'
+image: ''
 tags: [Dashboard]
 category: Análisis de datos
 draft: false 
