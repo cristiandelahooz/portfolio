@@ -1,13 +1,13 @@
 import type { ImagePiece } from '#types';
 import { hash } from 'hasha';
 import zip from 'just-zip-it';
+import { convert2img } from 'mdimg';
 import fs from 'node:fs';
 import os from 'node:os';
 import { outdent } from 'outdent';
 import path from 'pathe';
 import sharp from 'sharp';
 import { monorepoDirpath } from './paths.ts';
-import { convert2img } from 'mdimg';
 
 export async function generateReadmeMarkdownFile({
 	imageWidth,
@@ -27,16 +27,17 @@ export async function generateReadmeMarkdownFile({
 	const getImagePieceSrc = (
 		{ filepath, imgSrc, theme }: ImagePiece & { theme: 'light' | 'dark' },
 	) =>
-		`https://cristiandelahooz.github.io/cristiandelahooz/generator/generated/${imgSrc === undefined ?
-			path.basename(filepath) :
-			imgSrc.replace(
-				'${README_MD_SRC}',
-				path.basename(
-					theme === 'light' ?
-						lightModeReadmeMdImageFilepath :
-						darkModeReadmeMdImageFilepath,
-				),
-			)
+		`https://cristiandelahooz.github.io/cristiandelahooz/generator/generated/${
+			imgSrc === undefined ?
+				path.basename(filepath) :
+				imgSrc.replace(
+					'${README_MD_SRC}',
+					path.basename(
+						theme === 'light' ?
+							lightModeReadmeMdImageFilepath :
+							darkModeReadmeMdImageFilepath,
+					),
+				)
 		}`;
 
 	const getImgWidth = (width: number) => `${(width / imageWidth) * 100}%`;
